@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      Input Text:<input
+        type="test"
+        id="textform"
+        placeholder="Enter text here"
+      />
+
+      <button onclick="getResult()">Check</button>
+      <script>
+        function getResult() {
+          let htDomVal = "";
+          var x = document.getElementById("textform").value;
+
+          let cursRegex = /fool|fuck|stupid|damn|asshole|jackass|wanker|bitch/i;
+          if (cursRegex.test(x)) {
+            htDomVal = "Content not allowed , It contains some vague words";
+          } else {
+            htDomVal = "Content is allowed";
+          }
+          document.getElementById("result").innerHTML = htDomVal;
+        }
+        alert("Web page under construction");
+      </script>
+      <p id="result"></p>
+    </div>
+  </body>
+</html>
