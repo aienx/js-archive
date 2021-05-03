@@ -1,36 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div>
-      Input Text:<input
-        type="test"
-        id="textform"
-        placeholder="Enter text here"
-      />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWChecker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">  
+    <link rel="stylesheet" href="css/magnific-popup.css">       
+    <link rel="stylesheet" href="css/bootstrap.min.css">       
+  
+    <link rel="stylesheet" href="css/templatemo-upright.css">
 
-      <button onclick="getResult()">Check</button>
-      <script>
-        function getResult() {
-          let htDomVal = "";
-          var x = document.getElementById("textform").value;
+</head>
+<body>    
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Leftside bar -->
+            <div id="tm-sidebar" class="tm-sidebar"> 
+                <nav class="tm-nav">
+                    <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div>
+                        <div class="tm-brand-box">
+                            <h1 class="tm-brand">CWChecker</h1>
+                        </div>                
+                        <ul id="tm-main-nav">
+                            <li class="nav-item">                                
+                                <a href="#" class="nav-link current">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-home nav-icon"></i>
+                                    Home
+                                </a>
+                            </li>                       
+                            <li class="nav-item">
+                                <a href="#" class="nav-link external" target="_parent" rel="sponsored">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-external-link-alt nav-icon"></i>
+                                    External
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <footer class="mb-3 tm-mt-100">
+                        CSS: Templatemo <br>
+                        Made in Ghana with love.
+                    </footer>
+                </nav>
+            </div>
+            
+            <div class="tm-main">
+                <!-- Home section -->
+                <div class="tm-section-wrap">
+                    <div class="tm-parallax" data-parallax="scroll" ></div>                   
+                    <section id="home" class="tm-section">
+                        <h2 class="tm-text-primary">Curse Word Checker</h2>
+                        <hr class="mb-5">
+                        <div class="row">
+                            <div class="col-lg-6 tm-col-home mb-4">
+                                <div  class="tm-text-container">                                                               
+                                    <p>
+                                        Check through your text and documents for any vague words used in 
+                                        .This is a temporary site for app development.
+                                       
+                                    </p>
+                                    
+                                </div>  
+                                                              
+                            </div>
+                            <!--
+                        
+                            <div class="tm-icon-container mb-5 mr-0 ml-auto">
+                                <i class="fas fa-satellite-dish fa-4x tm-text-primary"></i>
+                            </div>  
+                        -->
+                        </div>
+                         <!-- Checker -->
+                        <div class="col-xl-6 tm-contact-col-l mb-4">
+                            <div class="form-group">
+                            <textarea rows="8" id="textarea" name="message" class="form-control rounded-0" placeholder="Text" required=></textarea>
+                             </div>
+                             <div class="form-group tm-text-right">
+                             <button onclick="getResult()" class="btn btn-primary">Check</button>
+                             </div>
+                             <p id="result">
+                                Test results will appear here                              
+                            </p>
+                        </div>
+                            
+                    </section>
+                </div>
+               
+                <script>
+                    function getResult() {
+                      let htDomVal = "";
+                      var x = document.getElementById("textarea").value;
+            
+                      let cursRegex = /fool|fuck|stupid|damn|asshole|jackass|wanker|bitch/i;
+                      if (cursRegex.test(x)) {
+                        htDomVal = "Content contains some vague words.";
+                      } else {
+                        htDomVal = "Content is allowed.";
+                      }
+                      document.getElementById("result").innerHTML = htDomVal;
+                    }
+                    alert("This webpage was made for developmental purposes");
+                  </script>
+             
+               
 
-          let cursRegex = /fool|fuck|stupid|damn|asshole|jackass|wanker|bitch/i;
-          if (cursRegex.test(x)) {
-            htDomVal = "Content not allowed , It contains some vague words";
-          } else {
-            htDomVal = "Content is allowed";
-          }
-          document.getElementById("result").innerHTML = htDomVal;
-        }
-        alert("Web page under construction");
-      </script>
-      <p id="result"></p>
-    </div>
-  </body>
-</html>
+                <!-- Copyright -->                
+                <div class="tm-section-wrap tm-copyright row">
+                    <div class="col-12">
+                        <div class="text-right">
+                            Copyright 2020 
+                        </div> 
+                    </div>
+                </div>                 
+            </div> <!-- .tm-main -->                      
+        </div> <!-- .row -->
+    </div> <!-- .container-fluid -->
+    <script src="js/jquery-3.4.1.min.js"></script>         
+    <script src="js/jquery.singlePageNav.min.js"></script> 
+    <script src="js/parallax/parallax.min.js"></script>     
+    <script src="js/imagesloaded.pkgd.min.js"></script>    
+    <script src="js/jquery.magnific-popup.min.js"></script> 
+            
+</body>
+</html> 
