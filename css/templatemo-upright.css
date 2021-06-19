@@ -16,6 +16,16 @@ https://templatemo.com/tm-555-upright
 	https://tympanus.net/Development/HoverEffectIdeas/
 	
 */
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+
+#clock {
+  font-family: "Orbitron", sans-serif;
+  color: #3123f5;
+  font-size: 46px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 
 html, body { overflow-x: hidden; }
 body { font-family: 'Kumbh Sans', sans-serif; }
