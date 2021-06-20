@@ -651,7 +651,7 @@ select:not([multiple]) {
 @media (max-width: 1400px) {
 	.tm-section-wrap {
 		width: calc(100% - 370px);
-		margin-left: 400px;
+		margin-left: 00px;
 	}
 }
 
@@ -704,8 +704,8 @@ select:not([multiple]) {
 	}
 
 	.tm-section-wrap {
-		width: calc(100% - 280px);
-		margin-left: 280px;		
+		width: calc(100% - 0px);
+		margin-left: 0px;		
 	}
 
 	.tm-section {

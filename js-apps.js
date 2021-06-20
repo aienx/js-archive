@@ -37,46 +37,19 @@ function updateTime(k) {
 currentTime();
 
 
-function inverseArray(arr,num){
-  var newArray=[];
-  while(num >= 1){
-  newArray.unshift([...arr])
-  num--;
+function celToFah(){
+  var celsiusInn = document.getElementById('celsius-input').value;
+  var fahrenheit;
+   fahrenheit = (celsiusInn * 9/5) + 32
+document.getElementById('result1').innerHTML = fahrenheit;
 }
-  return newArray;
+function fahToCel(){
+  var fahrenheitInn = document.getElementById('fahrenheit-input').value;
+  var celsius;
+  celsius = (fahrenheitInn - 32) * (5/9)
+document.getElementById('result2').innerHTML = celsius;
 }
 
-inverseArray(['ama','kwajo','abena'],6)
-
-let sCs = {
-  conFahrenheit(celsius){
-  var result;
-  return result = (celsius * 9/5) + 32
-  },
-  conToCelsius(fahrenheit){
-    var result;
-    return result = (celsius * 9/5) + 32
-  },
-  calPower(work,te){
-    return work/te
-  },
-  calcForce(mass,accel){
-    return mass*accel;
-  },
-  calcToArea(l,b){
-    return l * b;
-  },
-  calcToVolume(val){
-    return val * 3
-  },
-  calcToDensity(m,v){
-    return m/v;
-  },
-  
-  calcSf(f,l){
-    return (1/2) * (f/l);
-  }
-}
 
 
 
