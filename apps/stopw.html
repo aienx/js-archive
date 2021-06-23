@@ -14,6 +14,21 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
 
     <link rel="stylesheet" href="../css/minor-upright.css">
+    <style>    
+.wrapper {
+padding: 10px;
+width: 800px;
+margin: 30px auto;
+text-align:center;
+border: solid 1px white;
+}
+#seconds, #tens{
+  font-size:2em;
+}
+h2{
+  padding: 3px;
+}
+    </style>
   </head>
   <body>
     <div class="container-fluid" >
@@ -22,18 +37,15 @@
 
         <div class="tm-main">
           <!-- Home section -->
-          <div class="tm-section-wrap">
-            <h2 class="tm-text-primary">Temperature Convertor</h2>
-            <hr class="mb-5" />
-            <section id="home" class="tm-section">
+          <div class="tm-section-wrap" style="background-color: #ffa600; ">
+            <h2 style="color: white;" class="tm-text-primary">Stopwatch</h2>
+            
+            <section id="home" class="tm-section" >
               <div class="row">
                 <div class="col-lg-6 tm-col-home mb-4">
                   <div class="tm-text-container">
-                    <p>
-                      This algorithm converts temperatures to and from celsius,
-                      fahrenheit, and kelvin without doing traditional
-                      calculation. It receives original data and converts it to
-                      any specified unit.
+                    <p style="color: white;">
+                      Vanilla JavaScript Stopwatch
                     </p>
                   </div>
                 </div>
@@ -45,36 +57,19 @@
                         -->
               </div>
               <!-- Checker -->
+             
               <div class="col-xl-6 tm-contact-col-l mb-4">
-                <input
-                  type="text"
-                  id="celsius-input"
-                  class=" rounded-0"
-                  placeholder="Celsius"
-                  required
-                />
-                <br />
-                <br />
-                <p>Fahrenheit : <span id="result1"></span></p>
-                <button id="onclick-one">
-                  Calc
-                </button>
-                
-              </div>
-              <div class="col-xl-6 tm-contact-col-l mb-4">
-                <input
-                  type="text"
-                  id="fahrenheit-input"
-                  class=" rounded-0"
-                  placeholder="Fahrenheit"
-                  required
-                />
-                <br />
-                <br />
-                <p>Celsius : <span id="result2"></span></p>
-                <button id="onclick-two" >
-                  Calc
-                </button>
+
+                <div class="wrapper" style="color: white;" >
+                  
+                  <p style="color: white;"><span id="seconds">00</span>:<span id="tens">00</span></p>
+                  <button id="button-start" class="btn btn-primary">Start</button>
+                  <button id="button-stop" class="btn btn-primary">Stop</button>    
+                  <br>    <br>           
+                  <button id="button-reset" class="btn btn-primary">Reset</button>
+                  </div> 
+                  
+                  
               </div>
             </section>
             
@@ -92,7 +87,7 @@
       <!-- .row -->
     </div>
     <!-- .container-fluid -->
-    <script type="text/javascript" src="../js/tempcon.js"></script>
+    <script type="text/javascript" src="../js/stpwch.js"></script>
     <script src="../js/jquery-3.4.1.min.js"></script>
     <script src="../js/jquery.singlePageNav.min.js"></script>
     <script src="../js/parallax/parallax.min.js"></script>
