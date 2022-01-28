@@ -20,7 +20,7 @@ To chat with other community members you can join the xxcent Discord.
 Rules and prectices applies to all xxcent community channels.
 
 # Contributions
- Contributions are very welcome! See our contributing.md for more information.
+ Contributions are very welcome! Please see our [contributing.md](/contributing.md).
  
 # Current App list
  * JavaScript Time ...
