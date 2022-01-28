@@ -1,13 +1,28 @@
-# Vanilla Apps
+# Javascript Apps 
 ![](img/javascript-project.jpg)
 
-Vanilla JS is a name which refers to using plain JavaScript without any additional libraries like jQuery. People use it as a joke to remind other developers that many things can be done nowadays without the need for additional JavaScript libraries.
-Getting familiar with JavaScript basics means using those skills to 
-build JavaScript projects. We’ve put together a 
-list of 10+ JavaScript projects
-# Overview
-This repository contains a set of plain javascript apps created as a result of skills i have acquired as a js learner 
-# Apps 
+This project is a collection and hosting of javascript apps .
+We’ve put together a list of 10+ JavaScript simple apps made by various developers.
+
+# Get Started
+Visit xxcent.gq/home to read about the js apps project.
+
+# Documentation
+Visit xxcent.gq/docs to view full documentation
+
+# Community
+The xxcent community can be found on GitHub Discussions, where you can add your application, ask questions, voice ideas, 
+
+and share your projects.
+
+To chat with other community members you can join the xxcent Discord.
+
+Rules and prectices applies to all xxcent community channels.
+
+# Contributions
+ Contributions are very welcome! See our contributing.md for more information.
+ 
+# Current App list
  * JavaScript Time ...
  * JavaScript Stop watch. ...
  * JavaScript Temp calculator ...
@@ -15,10 +30,6 @@ This repository contains a set of plain javascript apps created as a result of s
  * JavaScript Calculator. 
  * JavaScript Random quote
  * JavaScript Js quiz.
- # Contributions
- Contributions are very welcome! See our CONTRIBUTING.md for more information.
- # Community
-We also have an open source project and we value and welcome new contributors and members of the community. Here are ways to get in touch with the community:
-Repository: ...
-Slack: #thanos
-Issue Tracker: GitHub Issues
+ * → add your simple js app here →
+
+
