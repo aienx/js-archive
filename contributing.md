@@ -20,13 +20,13 @@ To develop locally:
    ```
    git checkout -b MY_BRANCH_NAME
    ```
-   where `newbranch` is the name of your new branch. Then do your edits, and when finished do:
+   where `newbranch` is the name of your new branch. 
    
 4. Start developing and watch for code changes:
    ```
    make code changes
    ```
-5. When finished do:
+5. Finished :
    ```
    git push origin newbranch
    ```
@@ -34,6 +34,11 @@ To develop locally:
    _Note: You may need to repeat this step if your types get outdated._
    
    # Building
+   
+   # Testing
+   
+   # Publishing 
+   Repository maintainers can publish a new version of js apps after your pull request.
    
    
    
