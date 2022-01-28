@@ -1,5 +1,5 @@
 # Javascript Apps 
-![](img/javascript-project.jpg)
+![](javascript-project.jpg)
 
 This project is a collection and hosting of javascript apps .
 We’ve put together a list of 10+ JavaScript simple apps made by various developers.
