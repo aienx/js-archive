@@ -1,3 +1,12 @@
+//Functions
+  function updateTime(k) {
+    if (k < 10) {
+      return "0" + k;
+    } else {
+      return k;
+    }
+  }
+
 function currentTime() {
     var date = new Date(); /* creating object of Date class */
     var hour = date.getHours();
@@ -12,12 +21,5 @@ function currentTime() {
       currentTime();
     }, 1000); /* setting timer */
   }
-  
-  function updateTime(k) {
-    if (k < 10) {
-      return "0" + k;
-    } else {
-      return k;
-    }
-  }
+ 
   window.addEventListener('load',currentTime)
