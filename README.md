@@ -1,7 +1,8 @@
-# Js Project Scripts
 ![](img/javascript-project.jpg)
 
-## This project various algorithms and computations implimented in javascript language.
+# Js Project Scripts
+
+## Various algorithms and computations implimented in javascript language.
 You can contribute by submitting your own scripts, also written in javascript, which performs various tasks in and computations.
 
 ## Get Started
@@ -12,15 +13,15 @@ You can contribute by submitting your own scripts, also written in javascript, w
 ![Issues](https://img.shields.io/github/issues/larymak/Python-project-Scripts)
 
 ### Instructions/Contributing
-Write your algorithm or script and make the code ready for implimentation.
-Remember to test out your script
-Fork the and clone the repo into where your workspace
-Add you script into the /js/ folder and take note of the name
-Duplicate an html page and add it to the 
-Modify the new html page and impliment your script into the new html file
-Modify the index.html page by updating the link into the sidebar, which will be rendered in the iframe
-Commit and push 
-Create a pull request
+- Write your algorithm or script and make the code ready for implimentation.
+- Remember to test out your script
+- Fork the and clone the repo into where your workspace
+- Add you script into the /js/ folder and take note of the name
+- Duplicate an html page and add it to the 
+- Modify the new html page and impliment your script into the new html file
+- Modify the index.html page by updating the link into the sidebar, which will be rendered in the iframe
+- Commit and push 
+- Create a pull request
  
 # Current App list
  * JavaScript Time ...
