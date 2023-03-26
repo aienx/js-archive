@@ -4,16 +4,16 @@ A repository if personally built JavaScript projects and scritps. Each project h
 
 ## Project 1: Js Syntax Finder
 
-![Screenshot of Project 1](./project1/screenshot.png)
+![Screenshot of Project 1](https://github.com/aienx/js-archive/blob/main/jsapp4.png)
 
 This project brings back js syntax and pieces of code you will need for a particular project. It was built using JavaScript, HTML, and CSS.   
 For more information, check out the [README.md](project1/README.md) file.
 
 ## Project 2: Vanilla Js Scripts
 
-![Screenshot of Project 1](./project1/screenshot.png)
-![Screenshot of Project 1](./project1/screenshot.png)
-![Screenshot of Project 1](./project1/screenshot.png)
+![Screenshot of Project 1](https://github.com/aienx/js-archive/blob/main/jsapp1.png)
+![Screenshot of Project 1](https://github.com/aienx/js-archive/blob/main/jsapp2.png)
+![Screenshot of Project 1](https://github.com/aienx/js-archive/blob/main/jsapp4.png)
 
 A collection of Vannila Js App Scripts. It was built using React and Node.js. For more information, check out the [README.md](project2/README.md) file.
 
