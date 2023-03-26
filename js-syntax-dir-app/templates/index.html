@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS  -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="./images/ai.jpg"/>
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link href="../static/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--Top Collapsible-->
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-light p-4">
+      <h5 class="text-dark h4">(='X'=) Js Snippets (='X'=)</h5>
+      <span class="text-muted">A javascript syntax snippets search algorithm.</span>
+    </div>
+  </div>
+  <nav class="navbar navbar-light ">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+   <!--Top Collapsible-->
+    <!--Main-->
+  <div id="main" class="container-fluid">
+     <!--Indicator-->
+     <div id="indicator">
+    <div class="indicator">     
+        You havent typed anything yet!
+    </div>
+    </div>
+    <hr class="dropdown-divider">
+     <!--Indicator End-->
+    <div class="row">
+       <!--Left Search Tags Selectors-->
+      <div class="col-md-5 ">
+        <div class="card ">
+          <div class="card-body">
+             <!--SearchBar-->
+            <div id="search" class="input-group mb-3">
+            
+            </div>
+             <!--SearchBar End-->
+            <hr class="dropdown-divider">
+             <!--Top Collapsible-->
+             <div class="box">
+              <p>Search snippets of javascript syntax</p>        
+              <img class="img-responsive " src="../static/images/alpsh.gif" alt="">
+              <center>S Y N E R G Y</center>
+            </div>
+             <!--Top Collapsible-->
+            <button class="btn form-control col">Add More +</button>
+          </div>
+        </div>
+      </div>
+       <!--Left End-->
+
+       <!--Right Result-->
+      <div id="output" class="col-md-7">     
+      </div>
+       <!--Result End-->
+    </div>
+
+  </div>
+  <div class="footer">
+   Synergy © Copyright.
+  <div>
+  <script type="text/babel" src="/js/data.js"></script>
+  <script type="text/babel" src="/js/reactor.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous">
+  </script>
+ 
+</body>
+
+</html>
