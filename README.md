@@ -12,8 +12,7 @@ For more information, check out the [README.md](project1/README.md) file.
 ## Project 2: Vanilla Js Scripts
 
 ![Screenshot of Project 1](https://github.com/aienx/js-archive/blob/main/jsapp1.png)
-![Screenshot of Project 1](https://github.com/aienx/js-archive/blob/main/jsapp2.png)
-![Screenshot of Project 1](https://github.com/aienx/js-archive/blob/main/jsapp3.png)
+![Screenshot of Project 2](https://github.com/aienx/js-archive/blob/main/jsapp2.png)
 
 A collection of Vannila Js App Scripts. It was built using React and Node.js. For more information, check out the [README.md](project2/README.md) file.
 
