@@ -4,7 +4,7 @@ from django.shortcuts import render
 def home(request , *args , **kwargs):
     return render(request , "index.html" , {})
 def time(request , *args , **kwargs):
-    return render(request , "time.html" , {})
+    return render(request , "schedule.html" , {})
 def palind(request , *args , **kwargs):
     return render(request , "palindrome.html" , {})
 def sch(request , *args , **kwargs):

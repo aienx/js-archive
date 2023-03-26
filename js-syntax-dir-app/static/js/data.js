@@ -68,14 +68,14 @@ const data = {
     'elseif(){} ',
     ' elseif(){}', 
     'else{}'],
-  "switch statement": ['→ switch(param)',
+  "switch statement": ['→ a):',
+                          ' break'],
+  "create an object": [` →  var objswitch(param)',
                             'case (a):',
                            ' break',
                            ' case (b):',
                             'break',
-                           ' default (a):',
-                          ' break'],
-  "create an object": [` →  var obj = {
+                           ' default ( = {
         "name": "Whiskers",
         "legs": 4,
         "tails": 1,
